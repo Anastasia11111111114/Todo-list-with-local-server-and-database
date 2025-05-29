@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    color:white;
+}
+
+
+.css-div,
+.flex-column {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 150px 100px;
+    justify-items: stretch;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.flex-column {
+    align-items: stretch;
+}
+
+.flex-column {
+    margin-bottom: 10px;
+}
+
+.button-input {
+    border: 1px solid black;
+    height: 30px;
+    padding: 4px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-button {
+    height: 38px;
+    padding: 4px 10px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
