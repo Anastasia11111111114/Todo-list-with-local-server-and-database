@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo list</title>
+        <link rel = "stylesheet" href="11-todo2.css">
+    </head>
+    <body>
+        <h1 align="center">Todo list</h1>
+        <div class="flex-column">
+        <input onkeydown='OnKeyDown(event);' class="js-search-bar button-input" placeholder="Todo name">
+        <input type="date" class="js-due-date-input button-input">
+        <button class="add-button" onclick="addTodo();">Add</button>
+        </div>
+        <div class="js-div css-div"></div>
+
+        <script src="todo2.js"></script>
+    </body>
+</html>
